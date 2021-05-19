@@ -1,0 +1,13 @@
+# 抽象工程模式 Abstract Factory
+
+## 目的
+在不指定具体类的情况下创建一系列相关或依赖对象。 通常创建的类都实现相同的接口。 抽象工厂的客户并不关心这些对象是如何创建的，它只是知道它们是如何一起运行的。
+
+## UML图
+![](./abstractFactory.png)
+
+## 代码
+```src/Creational/AbstractFactory/*```
+
+## Test
+```tests/Creational/AbstractFactoryTest.php```

@@ -1,0 +1,28 @@
+{
+  "description": "php design patterns",
+  "keywords": [
+    "php",
+    "php-design-patterns"
+  ],
+  "type": "project",
+  "homepage": "http://www.huanghui.xyz",
+  "license": "MIT",
+  "name": "xuesi/design-patterns",
+  "authors": [
+    {
+      "name": "xuesi",
+      "email": "1592328848@qq.com",
+      "homepage": "http://www.huanghui.xyz"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DesignPatterns\\": "src/",
+      "DesignPatterns\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "psr/http-message": "^1.0",
+    "phpunit/phpunit": "^8.5"
+  }
+}
